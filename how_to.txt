@@ -1,0 +1,10 @@
+To compile exec, see visual studio config images.
+Cannot be run normally (OpenProcess crashes for some reason)
+
+
+
+Move exe in system32
+add name to HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Boot under diskchk (or destroy diskchk, not really safe)
+
+will start on boot
+
